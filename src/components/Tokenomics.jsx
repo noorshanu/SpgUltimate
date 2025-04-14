@@ -6,7 +6,7 @@ import { FaTelegram, FaTwitter, FaDiscord } from 'react-icons/fa';
 function Tokenomics() {
   const tokenomicsData = [
     { label: 'Total Supply', value: '1,000,000,000 SPG' },
-    { label: 'Initial Burn', value: '10%' },
+    { label: 'Initial Burn', value: 'after every  few minutes' },
     { label: 'Liquidity Pool', value: '100%' },
     { label: 'Marketing', value: '3%' },
     { label: 'Development', value: '20%' },
