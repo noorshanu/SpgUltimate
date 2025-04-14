@@ -1,14 +1,14 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaTelegram, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 function Navbar() {
   const socialIcons = [
  
     { icon: <FaTwitter />, href: 'https://twitter.com' },
     { icon: <FaLinkedin />, href: 'https://linkedin.com' },
-    { icon: <FaInstagram />, href: 'https://x.com/SPG_Payout' },
+    { icon: <FaTelegram />, href: 'https://x.com/SPG_Payout' },
   ];
 
   return (
