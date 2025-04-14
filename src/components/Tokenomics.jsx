@@ -23,7 +23,6 @@ function Tokenomics() {
   return (
     <div className="py-20 px-4 text-white">
       <div className="max-w-7xl mx-auto">
-        {/* Section Header with Typewriter */}
         <motion.div 
           className="text-center mb-16"
           initial={{ opacity: 0, y: -20 }}
@@ -33,11 +32,11 @@ function Tokenomics() {
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
             <div className="text-transparent bg-clip-text bg-gradient-to-r from-[#33FFFF] to-[#E0FFFF]">
-              Tokenomics
+              Solana Payout Token
             </div>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            SPG Token is designed with a sustainable tokenomics model to ensure long-term value for our community.
+            SPG Token is a Solana-based payout token designed to revolutionize the way creators and businesses handle payments and rewards.
           </p>
         </motion.div>
 
@@ -68,21 +67,21 @@ function Tokenomics() {
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#33FFFF] to-[#E0FFFF]">
-              How to Buy SPG
+              How to Get SPG
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Follow these simple steps to join the SPG community
+            Follow these simple steps to start using SPG for your payouts
           </p>
         </motion.div>
 
         {/* Steps to Buy */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           {[
-            { step: '1', title: 'Create a Wallet', description: 'Download MetaMask or Trust Wallet and create a new wallet' },
-            { step: '2', title: 'Get BNB', description: 'Buy BNB from an exchange and send it to your wallet' },
-            { step: '3', title: 'Connect to DEX', description: 'Visit PancakeSwap and connect your wallet' },
-            { step: '4', title: 'Swap for SPG', description: 'Swap your BNB for SPG tokens' },
+            { step: '1', title: 'Create Solana Wallet', description: 'Download Phantom or Solflare wallet and create a new Solana wallet' },
+            { step: '2', title: 'Get SOL', description: 'Buy SOL from an exchange and send it to your wallet' },
+            { step: '3', title: 'Connect to DEX', description: 'Visit Raydium or Orca and connect your wallet' },
+            { step: '4', title: 'Swap for SPG', description: 'Swap your SOL for SPG tokens' },
           ].map((item, index) => (
             <motion.div
               key={index}

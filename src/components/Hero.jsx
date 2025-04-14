@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 function Hero() {
   const texts = [
     "Welcome to SPG",
-    "The Ultimate Gaming Token",
+    "The Ultimate Payout Token",
     "Join the Revolution"
   ];
 
@@ -61,7 +61,7 @@ function Hero() {
           >
             <div className="flex items-center space-x-4">
               <span className="text-[#33FFFF] font-bold">Name:</span>
-              <span>SPG Token</span>
+              <span>Solana payout glitch</span>
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-[#33FFFF] font-bold">Symbol:</span>
@@ -80,7 +80,7 @@ function Hero() {
             transition={{ delay: 0.8 }}
             className="text-lg text-gray-300"
           >
-            Experience the future of gaming with SPG Token. Join our community of gamers and investors in this revolutionary blockchain gaming ecosystem. Secure, fast, and designed for the gaming community.
+            Experience the future of payout with SPG Token. Join our community of gamers and investors in this revolutionary blockchain payout ecosystem. Secure, fast, and designed for the payout community.
           </motion.p>
         </motion.div>
       </div>
