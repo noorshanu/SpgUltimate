@@ -6,7 +6,7 @@ import { FaTelegram, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 function Navbar() {
   const socialIcons = [
  
-    { icon: <FaTwitter />, href: 'https://twitter.com' },
+    { icon: <FaTwitter />, href: 'https://x.com/SPG_Payout' },
     { icon: <FaLinkedin />, href: 'https://linkedin.com' },
     { icon: <FaTelegram />, href: 'https://x.com/SPG_Payout' },
   ];
