@@ -5,10 +5,10 @@ import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 function Navbar() {
   const socialIcons = [
-    { icon: <FaGithub />, href: 'https://github.com' },
+ 
     { icon: <FaTwitter />, href: 'https://twitter.com' },
     { icon: <FaLinkedin />, href: 'https://linkedin.com' },
-    { icon: <FaInstagram />, href: 'https://instagram.com' },
+    { icon: <FaInstagram />, href: 'https://x.com/SPG_Payout' },
   ];
 
   return (
