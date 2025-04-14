@@ -69,7 +69,7 @@ function Hero() {
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-[#33FFFF] font-bold">CA:</span>
-              <span className="text-sm break-all">0x1234...5678</span>
+              <span className="text-sm break-all">DJmM4AWzP9nvqq8YRq8NpKhKzwptQPEMbNZ6eUKGE97i</span>
             </div>
           </motion.div>
 
