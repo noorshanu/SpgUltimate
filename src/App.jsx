@@ -1,26 +1,19 @@
 import React from 'react';
 import MatrixRain from './components/Matrixrain';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Tokenomics from './components/Tokenomics';
+import Footer from './components/Footer';
+
 function App() {
   return (
-    <div>
+    <div className="relative min-h-screen overflow-hidden">
       <MatrixRain />
-
-      <div
-        style={{
-          position: 'relative',
-          zIndex: 1,
-          color: 'white',
-          padding: '',
-          textAlign: 'center',
-        }}
-      >
+      <div className="relative z-10 text-white">
         <Navbar />
-        <h1>Welcome to the Matrix</h1>
-        <p>The background is alive 👾</p>
-        <button style={{ padding: '10px 20px', marginTop: '20px' }}>
-          Click Me
-        </button>
+        <Hero />
+        <Tokenomics />
+        <Footer />
       </div>
     </div>
   );
