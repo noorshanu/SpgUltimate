@@ -7,10 +7,10 @@ function Tokenomics() {
   const tokenomicsData = [
     { label: 'Total Supply', value: '1,000,000,000 SPG' },
     { label: 'Initial Burn', value: '10%' },
-    { label: 'Liquidity Pool', value: '40%' },
-    { label: 'Marketing', value: '15%' },
+    { label: 'Liquidity Pool', value: '100%' },
+    { label: 'Marketing', value: '3%' },
     { label: 'Development', value: '20%' },
-    { label: 'Team', value: '10%' },
+    { label: 'Tax', value: '9%' },
     { label: 'Community Rewards', value: '5%' },
   ];
 
