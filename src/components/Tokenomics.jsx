@@ -14,7 +14,7 @@ function Tokenomics() {
   ];
 
   const socialLinks = [
-    { icon: <FaTelegram />, name: 'Telegram', url: 'https://x.com/SPG_Payout' },
+    { icon: <FaTelegram />, name: 'Telegram', url: 'https://t.me/spgglitch' },
     { icon: <FaTwitter />, name: 'Twitter', url: 'https://x.com/SPG_Payout' },
     { icon: <FaDiscord />, name: 'Discord', url: 'https://discord.gg/spgtoken' },
   ];
