@@ -9,7 +9,6 @@ function Tokenomics() {
     { label: 'Initial Burn', value: 'after every  few minutes' },
     { label: 'Liquidity Pool', value: '100%' },
     { label: 'Marketing', value: '3%' },
-    { label: 'Development', value: '20%' },
     { label: 'Tax', value: '9%' },
     { label: 'Community Rewards', value: '5%' },
   ];
