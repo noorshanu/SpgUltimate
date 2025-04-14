@@ -10,7 +10,7 @@ function Tokenomics() {
     { label: 'Liquidity Pool', value: '100%' },
     { label: 'Marketing', value: '3%' },
     { label: 'Tax', value: '9%' },
-    { label: 'Community Rewards', value: '5%' },
+    { label: 'Community Rewards', value: '50%' },
   ];
 
   const socialLinks = [
