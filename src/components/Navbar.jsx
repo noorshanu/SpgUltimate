@@ -8,7 +8,7 @@ function Navbar() {
  
     { icon: <FaTwitter />, href: 'https://x.com/SPG_Payout' },
     { icon: <FaLinkedin />, href: 'https://linkedin.com' },
-    { icon: <FaTelegram />, href: 'https://x.com/SPG_Payout' },
+    { icon: <FaTelegram />, href: 'https://t.me/spgglitch' },
   ];
 
   return (
